@@ -1,14 +1,14 @@
 import * as React from 'react';
 
-import PrimaryLayout from '../components/Layouts/PrimaryLayout';
-import Seo from '../components/seo';
+import { PrimaryLayout, Seo, HomePageContent } from '../components';
 
-const IndexPage = () => (
+const HomePage = () => (
   <PrimaryLayout>
     <div>Home</div>
+    <HomePageContent />
   </PrimaryLayout>
 );
 
 export const Head = () => <Seo title="Home" />;
 
-export default IndexPage;
+export default HomePage;
