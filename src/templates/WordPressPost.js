@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import { PrimaryLayout, BlogPostContent } from '../components';
+import { PrimaryLayout, Seo, BlogPostContent } from '../components';
 
 import { processWordPressPost } from '../utils/functions';
 
@@ -12,6 +12,8 @@ const BlogPost = ({ data: { wpPost } }) => {
     </PrimaryLayout>
   );
 };
+
+export const Head = ({ data: { wpPost: { seo: { title, metaDesc, canonical, metaKeywords } } } }) => <Seo title={title} description={metaDesc} canonical={canonical} />
 
 export const query = graphql`
   query ($id: String!) {
@@ -37,6 +39,7 @@ export const query = graphql`
         canonical
         metaKeywords
         title
+        metaDesc
       }
       categories {
         nodes {

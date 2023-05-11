@@ -23,6 +23,8 @@ const WordPressCategoryTemplate = ({ data: { wpCategory: category } }) => {
   );
 };
 
+export const Head = ({ data: { wpCategory: { seo: { title, metaDesc, canonical } } } }) => <Seo title={title} description={metaDesc} canonical={canonical} />
+
 export const query = graphql`
   query ($id: String!) {
     wpCategory(id: { eq: $id }) {
