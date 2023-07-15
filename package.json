@@ -5,26 +5,26 @@
   "version": "0.1.0",
   "author": "Red Rocks Web Development <websites@redrockswebdevelopment.com>",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "gatsby": "^5.9.0",
-    "gatsby-plugin-catch-links": "^5.6.0",
-    "gatsby-plugin-image": "^3.9.0",
-    "gatsby-plugin-manifest": "^5.9.0",
-    "gatsby-plugin-sharp": "^5.9.0",
-    "gatsby-source-filesystem": "^5.9.0",
-    "gatsby-source-wordpress": "^7.9.0",
-    "gatsby-transformer-sharp": "^5.9.0",
+    "dotenv": "^16.3.1",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-catch-links": "^5.11.0",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^5.11.0",
+    "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-source-wordpress": "^7.11.0",
+    "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.14",
-    "gatsby-plugin-postcss": "^6.6.0",
-    "postcss": "^8.4.23",
-    "prettier": "^2.8.8",
-    "prettier-plugin-tailwindcss": "^0.2.8",
-    "tailwindcss": "^3.3.2"
+    "gatsby-plugin-postcss": "^6.11.0",
+    "postcss": "^8.4.26",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "tailwindcss": "^3.3.3"
   },
   "keywords": [
     "gatsby"
